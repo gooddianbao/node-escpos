@@ -38,7 +38,7 @@
   },
   "optionalDependencies": {
     "usb": "*",
-    "serialport": "*",
+    "serialport": "*"
   },
   "devDependencies": {
     "mocha": "*"
