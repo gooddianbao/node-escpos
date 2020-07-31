@@ -1,5 +1,5 @@
 {
-  "name": "escpos",
+  "name": "escpos-roger",
   "version": "2.5.2",
   "description": "ESC/POS Printer driver for nodejs",
   "main": "index.js",
@@ -9,26 +9,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/song940/node-escpos.git"
+    "url": "git+https://github.com/gooddianbao/node-escpos.git"
   },
   "keywords": [
     "escpos",
     "printer"
   ],
-  "author": "Lsong <hi@lsong.org> (https://lsong.org)",
+  "author": "Roger Huang",
   "contributors": [
     "Jose Vera <hola@jose.com.co>",
     "Sébastien Vidal <Psychopoulet@GitHub.com>",
     "Yu Yongwoo <uyu423@gmail.com>",
     "Attawit Kittikrairit <atton16@gmail.com>",
     "Risley Lima <risley@rlimainfo.com.br>",
-    "Michael Kuenzli <michael.kuenzli@camptocamp.com>"
+    "Michael Kuenzli <michael.kuenzli@camptocamp.com>",
+    "Lsong <hi@lsong.org> (https://lsong.org)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/song940/node-escpos/issues"
+    "url": "https://github.com/gooddianbao/node-escpos/issues"
   },
-  "homepage": "https://github.com/song940/node-escpos#readme",
+  "homepage": "https://github.com/gooddianbao/node-escpos#readme",
   "dependencies": {
     "qr-image": "*",
     "get-pixels": "*",
@@ -38,7 +39,6 @@
   "optionalDependencies": {
     "usb": "*",
     "serialport": "*",
-    "node-bluetooth": "*"
   },
   "devDependencies": {
     "mocha": "*"
